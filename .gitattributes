@@ -1,0 +1,47 @@
+# Define comportamento padrão para arquivos de texto
+* text=auto
+
+# Força finais de linha LF para scripts de shell e arquivos de configuração
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+*.java text eol=lf
+*.gradle text eol=lf
+*.gitignore text eol=lf
+Dockerfile text eol=lf
+
+# Força CRLF no wrapper de build Windows
+mvnw.cmd text eol=crlf
+gradlew.bat text eol=crlf
+
+# Força LF no wrapper de build Unix
+mvnw text eol=lf
+gradlew text eol=lf
+
+# Arquivos binários - Git não deve tentar modificar
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.jar binary
+*.exe binary
+*.dll binary
+*.class binary
+
+# Fontes e recursos
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+
+# Arquivos de banco de dados H2 (se houver dump)
+*.mv.db binary
+*.h2.db binary
+
