@@ -60,5 +60,5 @@ Antes de iniciar o curso/projeto, é recomendado que você tenha conhecimentos b
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/web-scraping-java.git
-   cd web-scraping-java
+   git clone https://github.com/wbaamaral/brasileirao-api.git
+   cd brasileirao-api
